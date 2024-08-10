@@ -1,14 +1,12 @@
 import PostCard from "./PostCard";
+import Navbar from "./Navbar/Navbar"
 
 function SocialApp() {
      return (
           <div>
-               Social App
+               <Navbar />
                <PostCard />
-               <PostCard />
-               <PostCard />
-               <PostCard />
-               <PostCard />
+
           </div>
      )
 }
